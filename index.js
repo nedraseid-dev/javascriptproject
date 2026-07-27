@@ -21,20 +21,6 @@ let fatherName = `Seid`;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 console.log(`You are ${age} years old.`);
 console.log(`from animals ${name} is really hard working one`);
 console.log(`your class mate ${girlname} is very clever and even got ${gpa} on first semister`);
@@ -54,18 +40,40 @@ let isStudent = false;
 
 document.getElementById("firsth1").textContent = `The name ${fullName} is such an awsome name to have.`;
 document.getElementById("firstp").textContent = `the girl named ${fullName} just turned ${age} a month ago.` ;
-document.getElementById("secondp").textContent = ` Is ${fullName} a student?: ${isStudent}`;*/
+document.getElementById("secondp").textContent = ` Is ${fullName} a student?: ${isStudent}`;
 
 
 
-
-
-
-
-
+arithmethis operations
 
 
 let student = 47;
 student += 1;
 student *= 3;
 console.log(`${student}`);
+
+to accept use input
+1st using window prompt
+
+
+let username;
+username = window.prompt("can u tell us ur username?");
+console.log(username);
+
+2nd using proffessional html textbx
+
+let username;
+document.getElementById("mysubmit").onclick = function(){
+    username = document.getElementById("mytext").value;
+    document.getElementById('myh1').textContent = `Hellow ${username}`;
+}*/
+
+
+
+
+
+
+
+
+
+
