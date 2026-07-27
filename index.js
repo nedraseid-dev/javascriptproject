@@ -41,7 +41,7 @@ console.log(`your class mate ${girlname} is very clever and even got ${gpa} on f
 console.log(`You are ${age} years old.`);
 console.log(`is this your email? ${email}`);
 console.log(`is the student enrolled?: ${isStudent}`);
-console.log(`so the girls father name is ${fatherName}`); */
+console.log(`so the girls father name is ${fatherName}`); 
 
 
 
@@ -54,4 +54,18 @@ let isStudent = false;
 
 document.getElementById("firsth1").textContent = `The name ${fullName} is such an awsome name to have.`;
 document.getElementById("firstp").textContent = `the girl named ${fullName} just turned ${age} a month ago.` ;
-document.getElementById("secondp").textContent = ` Is ${fullName} a student?: ${isStudent}`;
+document.getElementById("secondp").textContent = ` Is ${fullName} a student?: ${isStudent}`;*/
+
+
+
+
+
+
+
+
+
+
+let student = 47;
+student += 1;
+student *= 3;
+console.log(`${student}`);
