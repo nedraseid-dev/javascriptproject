@@ -71,6 +71,14 @@ document.getElementById("mysubmit").onclick = function(){
 
 
 
+let age = window.prompt(`tell us your age`);
+age = Number(age);
+age+=1;
+console.log(age, typeof age);
+
+
+
+
 
 
 
