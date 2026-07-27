@@ -66,15 +66,35 @@ let username;
 document.getElementById("mysubmit").onclick = function(){
     username = document.getElementById("mytext").value;
     document.getElementById('myh1').textContent = `Hellow ${username}`;
-}*/
+}
 
 
-
+type converter
 
 let age = window.prompt(`tell us your age`);
 age = Number(age);
 age+=1;
-console.log(age, typeof age);
+console.log(age, typeof age);*/
+
+
+
+
+
+
+const PI = 3.1415;
+let radius;
+let circumference;
+
+
+
+
+document.getElementById(`mysubmitbtn`).onclick = function(){
+    radius = document.getElementById(`mytext`).value;
+    radius = Number(radius);
+    circumference = 2 * PI * radius;
+    document.getElementById(`myh3`).textContent = circumference + "cm";
+
+}
 
 
 
