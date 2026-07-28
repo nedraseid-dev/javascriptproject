@@ -1,18 +1,18 @@
 body{
-    font-family: verdana;
     text-align: center;
+    font-family: verdana;
 }
 #myBtn{
     font-size: 3em;
-    border-radius: 3px;
-    padding: 5px 25px;
-    cursor: pointer;
     color: white;
-    transition: background-color 0.25;
-    background-color: green
+    background-color: rgb(236, 89, 89);
+    padding: 5px 25px;
+    border-radius: 5px;
+    transition: background-color 0.25s;
 }
 #myBtn:hover{
-    background-color: rgb(103, 180, 87)
-}.myLabels{
-    font-size: 3em;
-}
+    background-color:  #a52a2ac2;
+    }
+.labels{
+    font-size : 3em;
+ }   
