@@ -115,8 +115,10 @@ decreaseBtn.onclick = function(){
 resetBtn.onclick = function(){
     count = 0;
     countLabel.textContent = count;
-}*/
+}
 
+
+math components
 
 let x = 60;
 let y = 5;
@@ -136,10 +138,33 @@ let z = -9
 
 
 
+console.log(z);*/
 
 
+const myBtn = document.getElementById("myBtn");
+const Label = document.getElementById("Label");
+const Labe2 = document.getElementById("Labe2");
+const Labe3 = document.getElementById("Labe3");
 
-console.log(z);
+const min = 1;
+const max = 6;
+let randomNum1;
+let randomNum2;
+let randomNum3;
+
+
+myBtn.onclick = function(){
+    randomNum1 = Math.floor(Math.random() * max) + min;
+    randomNum2 = Math.floor(Math.random() * max) + min;
+    randomNum3 = Math.floor(Math.random() * max) + min;
+
+    Label1.textContent = randomNum1;
+    Label2.textContent = randomNum2;
+    Label3.textContent = randomNum3;
+
+
+}
+
 
 
 
