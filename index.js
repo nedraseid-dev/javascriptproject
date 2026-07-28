@@ -94,8 +94,9 @@ document.getElementById(`mysubmitbtn`).onclick = function(){
     circumference = 2 * PI * radius;
     document.getElementById(`myh3`).textContent = circumference + "cm";
 
-}*/
+}
 
+project on counting numbers
 
 const decrease = document.getElementById("decreaseBtn");
 const reset = document.getElementById("resetBtn");
@@ -114,7 +115,35 @@ decreaseBtn.onclick = function(){
 resetBtn.onclick = function(){
     count = 0;
     countLabel.textContent = count;
-}
+}*/
+
+
+let x = 60;
+let y = 5;
+let z = -9
+
+
+//console.log(Math.PI);
+//console.log(Math.E);
+
+//z = Math.sign(x);
+//z = Math.floor(x);
+//z = Math.ceil(x);
+//z = Math.trunc(x);
+//z = Math.sqrt(x);
+//z = Math.abs(x);
+//z = Math.min(x, y, z);
+
+
+
+
+
+
+console.log(z);
+
+
+
+
 
 
 
