@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    font-family: verdana;
+    display: block;
+}
+#myBtn{
+    padding: 5px 25;
+    font-size: 3em;
+    color: white;
+    background-color: rgb(171, 240, 9);
+    transition: bachground-color 0.25s;
+    border-radius: 5px;
+}
+#myBtn:hover{
+    background-color: rgb(12, 83, 2);
+}
+#myLabel{
+    font-size: 2em;
+}

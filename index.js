@@ -1,20 +1,26 @@
-let isSelefi = true;
-let isHafidh = false;
-if(isSelefi){
-    if(isHafidh){
-        console.log("Your aqidah will make you perfect to be halali")
-        console.log("If am gonna listen to ur buitifull recitation day and night what else would i need")
-    }
-    else{
-        console.log("Your aqidah was perfect but you know the heart wants what it wants sorry")
-    }
-}
-else{
-    if(isHafidh){
-        console.log("If your aqidah is not valid at the first place being a hafiz doesnot matter so go find your match");
-    }
-    else{
-        console.log("wait a minute ? if you dont have both what are u doing at my door??? run before i call the cops!");
+const myLabel = document.getElementById("myLabel");
+const myText = document.getElementById("myText");
+const myBtn = document.getElementById("myBtn");
+const myP = document.getElementById("myP");
+let age;
 
+myBtn.onclick = function(){
+    age = myText.value;
+    age = Number(age);
+    if(age >= 80){
+        myP.textContent = "Sorry sir you cannot be alone ur old";
+    }
+    else if(age >= 18){
+       myP.textContent = "you are capable of living by your own";
+    }
+    
+    else if(age == 0){
+        myP.textContent = "you just born kiddo go cry or something";
+    }
+    else if(age <= 10){
+        myP.textContent = "you need a legal guardian";
+    }
+    else if(age < 0){
+        myP.textContent = "age can not be under 0";
     }
 }
