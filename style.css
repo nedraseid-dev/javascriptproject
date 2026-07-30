@@ -1,19 +1,15 @@
 body{
-    text-align: center;
     font-family: verdana;
-    display: block;
-}
-#myBtn{
-    padding: 5px 25;
-    font-size: 3em;
-    color: white;
-    background-color: rgb(171, 240, 9);
-    transition: bachground-color 0.25s;
-    border-radius: 5px;
-}
-#myBtn:hover{
-    background-color: rgb(12, 83, 2);
-}
-#myLabel{
     font-size: 2em;
+    text-align: center;
+}
+#mysubmit{
+    font-size: 1em;
+    color: white;
+    background-color: rgb(245, 14, 14);
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+#mysubmit:hover{
+    background-color: rgb;
 }
