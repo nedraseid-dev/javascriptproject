@@ -1,3 +1,3 @@
-let time = 4;
-let greetings = time >= 5 ? "good afternoon" : "good morning";
-console.log(greetings);
+let purchaseAmount = 120;
+let discount = purchaseAmount >= 100 ? 100 : 0;
+console.log(`your total is $${purchaseAmount - (discount/100)}`)
