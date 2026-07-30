@@ -1,33 +1,21 @@
-let name = "yusra";
-
-switch(name){
-    case 1:
-        console.log("My child name is Abdellah");
+let testScore = 40;
+let gradeLetter;
+switch( true ){
+    case testScore > 95:
+        letterGrade = "A+";
         break;
-    case 2:
-        console.log("My child name is Hanifa");
+    case testScore > 90:
+        letterGrade = "A";
         break;
-    case 3:
-        console.log("My child name is Nedra");
+    case testScore > 80:
+        letterGrade = "B";
         break;
-    case 4:
-        console.log("My child name is Abdurahman");
+    case testScore > 70:
+        letterGrade = "C";
         break;
-    case 5:
-        console.log("My child name is Sumeya");
-        break;
-    case 6:
-        console.log("My child name is Halima")
-        break;
-    case 7:
-        console.log("My child name is Mohammed")    
-        break;
-    case 8:
-        console.log("My child name is Musab")
+    case testScore > 60:
+        letterGrade = "D";
         break;
     default:
-        console.log(`${name} is not my child`)
-
-
-
+        letterGrade = "F"   
 }
