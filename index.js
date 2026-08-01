@@ -1,3 +1,8 @@
-let phonenumber = "09 51 25 94 60"
-phonenumber = phonenumber.replaceAll(" ", ".");
-console.log(phonenumber);
+const temp = 300;
+
+if(temp >0 &&  temp <=30){
+    console.log("The weather is good");
+}
+else{
+    console.log("The weather is bad");
+}
