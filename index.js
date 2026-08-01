@@ -1,8 +1,8 @@
-const temp = 50;
+const isSunny = true;
 
-if(temp >100 ||  temp <=80){
-    console.log("The weather is good");
+if(!isSunny){
+    console.log("The weather is foggy");
 }
 else{
-    console.log("The weather is bad");
+    console.log("The weather is sunny");
 }
