@@ -1,8 +1,7 @@
-const isSunny = true;
-
-if(!isSunny){
-    console.log("The weather is foggy");
-}
+const PI = 3.14;
+if(PI === "3.14"){
+    console.log("That is pi");
+} 
 else{
-    console.log("The weather is su
+    console.log("That is not pi");
 }
