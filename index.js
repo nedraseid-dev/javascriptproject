@@ -10,5 +10,10 @@ function multiply(x, y){
 function division(x, y){
     return x / y;
 }
-
-console.log(division(2, 3))
+function isEven(number){
+    return number % 2 === 0 ? true : false;
+}
+function isValidEmail(email){
+   return email.includes("@") ? true : false;
+}
+console.log(isValidEmail("Nedra@gmail.com"))
