@@ -1,19 +1,10 @@
-function add(x, y){
-    return x + y;
+function2();
+function function1(){
+    let x = 1;
+    console.log(x);
 }
-function substract(x, y){
-    return x - y;
+function function2(){
+    let x = 2;
+    console.log(x);
+
 }
-function multiply(x, y){
-    return x * y;
-}
-function division(x, y){
-    return x / y;
-}
-function isEven(number){
-    return number % 2 === 0 ? true : false;
-}
-function isValidEmail(email){
-   return email.includes("@") ? true : false;
-}
-console.log(isValidEmail("Nedra@gmail.com"))
