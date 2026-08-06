@@ -1,10 +1,14 @@
-function happyBirthday(username, age){
-    console.log("Happy Birthday to you!")
-    console.log("Happy Birthday to you!")
-    console.log(`Happy Birthday dear ${username}!`)
-    console.log("Happy Birthday to you!")
-    console.log(`you are now ${age} years old!`)
-
+function add(x, y){
+    return x + y;
 }
-happyBirthday("Nedra" , 19);
-happyBirthday("Amira" , 20);
+function substract(x, y){
+    return x - y;
+}
+function multiply(x, y){
+    return x * y;
+}
+function division(x, y){
+    return x / y;
+}
+
+console.log(division(2, 3))
