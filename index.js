@@ -1,3 +1,8 @@
-for(let i = 10; i >= 0; i-=3){
-    console.log(i);
+for(i = 1; i <=30; i++){
+    if(i == 21){
+        break;
+    }
+    else{
+        console.log(i);
+    }
 }
