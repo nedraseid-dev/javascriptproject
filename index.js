@@ -1,15 +1,19 @@
-function openFridge(...foods){
-    console.log(...foods);
+function sum(...numbers){
+
+    let result = 0;
+    for(let number of numbers){
+        result += number; 
+    }
+    return result;
 }
-function getFood(...foods){
-    return foods;
+
+function getAverage(...numbers){
+
+    let result = 0;
+    for(let number of numbers){
+        result += number; 
+    }
+    return result / numbers.length;
 }
-
-const food1 = "enjera";
-const food2 = "dabo";
-const food3 = "kinche";
-const food4 = "arusto";
-
-//openFridge(food1, food2, food3, food4);
-
-const foods = gretFood(food1, food2, food3, food4);    
+const total = getAverage(75, 100, 85, 35, 65);
+console.log(total);
