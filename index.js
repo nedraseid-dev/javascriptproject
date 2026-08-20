@@ -1,6 +1,16 @@
-function combineStrings(...strings){
-    return strings.join(" ");
+hello(wait);
 
+function hello(callback){
+    console.log("hello!");
+    callback();
 }
-const fullName = combineStrings("Ms.", "Nedra", "Seid", "111")
-console.log(fullName);
+
+function leave(){
+     console.log("leave")
+}
+function wait(){
+    console.log("Wait");
+}
+function goodbye(){
+     console.log("goodbye!");
+}
