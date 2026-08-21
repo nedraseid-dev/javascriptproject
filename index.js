@@ -1,25 +1,19 @@
-let numbers = [1, 2, 3, 4, 5];
+let fruits = ["apple", "guava", "pineapple"];
 
 
-numbers.forEach(cube);
-numbers.forEach(display);
+fruits.forEach(capitalize);
+fruits.forEach(display);
 
-function double(element, index, array){
-    array[index] = element * 2;
+function upperCase(element, index, array){
+    array[index] = element.toUpperCase();
 }
-
-function triple(element, index, array){
-    array[index] = element * 3;
-
+function lowerCase(element, index, array){
+    array[index] = element.toLowerCase();
 }
-function square(element, index, array){
-    array[index] = Math.pow(element, 2);
+function capitalize(element, index, array){
+    array[index] = element.charAt(0).toUpperCase() + element.slice(1);
 }
-function cube(element, index, array){
-    array[index] = Math.pow(element, 3);
-
+function display(elements){
+    console.log(elements);
 }
-function display(element){
-    console.log(element);
-
-}
+   
