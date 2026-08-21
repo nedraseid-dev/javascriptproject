@@ -1,16 +1,25 @@
-hello(wait);
+let numbers = [1, 2, 3, 4, 5];
 
-function hello(callback){
-    console.log("hello!");
-    callback();
+
+numbers.forEach(cube);
+numbers.forEach(display);
+
+function double(element, index, array){
+    array[index] = element * 2;
 }
 
-function leave(){
-     console.log("leave")
+function triple(element, index, array){
+    array[index] = element * 3;
+
 }
-function wait(){
-    console.log("Wait");
+function square(element, index, array){
+    array[index] = Math.pow(element, 2);
 }
-function goodbye(){
-     console.log("goodbye!");
+function cube(element, index, array){
+    array[index] = Math.pow(element, 3);
+
+}
+function display(element){
+    console.log(element);
+
 }
